@@ -6,12 +6,19 @@ The format-string vulnerability is caused by code like printf(user_input), where
 ## Target Audience
 
 ### Instructors
-If you're an instructor in cypersecurity or computer programming, this would be a great opportunity to teach your students on the vulnerability from a hands-on approach. Specififically, the uses of the vulnerability and how to protect against it. 
+If you're an instructor in cypersecurity concepts or a field related, this would be a great opportunity to teach your students on the vulnerability from a hands-on approach. Specififically, the uses of the vulnerability and how to protect against it. 
+
+### Students
+A student in cybersecurity concepts or a field related could use this lab to see how programming can be exploited
+
+## Design and Architecture
+This lab only has one container, which is the hacker. It provides all of the tools you might need. Jupyter offers a text editor/terminal, which offers keybindings (like for vim) if you prefer them. 
+
 
 ## Installation and Usage
 
 ### Installation
-Only one container is needed for this lab. To build it via docker:
+To build the container via docker:
 
 ```bash
 cd hacker
@@ -23,3 +30,5 @@ Jupyter is also used for the user's interaction with the container. To get the c
 ```bash
 docker run -d -p 8888 <hacker image tag of your choice
 ```
+### Usage
+CHEESEHub has the instructions.
