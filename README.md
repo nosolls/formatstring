@@ -31,4 +31,4 @@ Jupyter is also used for the user's interaction with the container. To get the c
 docker run -d -p 8888 <hacker image tag of your choice
 ```
 ### Usage
-CHEESEHub has the instructions provided by the [SEED Project](https://seedsecuritylabs.org/index.html).
+CHEESEHub has the instructions provided by the [SEED Project](https://seedsecuritylabs.org/index.html). For this container, be sure to compile vul_prog.c as vul_prog. This will make sure you can run it with sudo.
