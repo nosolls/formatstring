@@ -31,4 +31,4 @@ Jupyter is also used for the user's interaction with the container. To get the c
 docker run -d -p 8888 <hacker image tag of your choice
 ```
 ### Usage
-CHEESEHub has the instructions.
+CHEESEHub has the instructions provided by the [SEED Project](https://seedsecuritylabs.org/index.html).
