@@ -1,4 +1,3 @@
-# Based on jupyter base notebook
 FROM dorowu/ubuntu-desktop-lxde-vnc:bionic
 
 # File Creator
