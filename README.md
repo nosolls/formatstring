@@ -12,8 +12,7 @@ If you're an instructor in cypersecurity concepts or a field related, this would
 A student in cybersecurity concepts or a field related could use this lab to see how programming can be exploited. This could also give them the chance to get a head start in their classes if they have not covered the format-string vulnerability yet.
 
 ## Design and Architecture
-This lab only has one container, which is the hacker. It provides all of the tools you might need. Jupyter offers a text editor/terminal, which offers keybindings (like for vim) if you prefer them. 
-
+This lab only has one container, which is the hacker. It provides all of the tools you might need. This lab will run off of VNC.
 
 ## Installation and Usage
 
@@ -25,7 +24,7 @@ cd hacker
 docker build -t <image tag name> .
 ```
 
-Jupyter is also used for the user's interaction with the container. To get the container running for the user:
+To get the container running for the user:
 
 ```bash
 docker run -d -p  --cap-add=SYS_PTRACE --security-opt seccomp=unconfined 80 <image tag name>
