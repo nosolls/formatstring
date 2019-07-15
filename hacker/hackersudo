@@ -1,2 +1,1 @@
-jovyan ALL=(root) NOPASSWD: /sbin/sysctl
-jovyan ALL=(root) NOPASSWD: /home/jovyan/vul_prog
+hacker ALL=(root) NOPASSWD: /home/hacker/vul_prog
