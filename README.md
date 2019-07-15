@@ -27,7 +27,7 @@ docker build -t <image tag name> .
 To get the container running for the user:
 
 ```bash
-docker run -d -p  --cap-add=SYS_PTRACE --security-opt seccomp=unconfined 80 <image tag name>
+docker run -d -p 80 --cap-add=SYS_PTRACE --security-opt seccomp=unconfined <image tag name>
 ```
 ### Usage
 CHEESEHub has the instructions provided by the [SEED Project](https://seedsecuritylabs.org/index.html). For this container, be sure to compile vul_prog.c as vul_prog. This will make sure you can run it with sudo.
