@@ -1,4 +1,4 @@
-# Format-String Vulnerability
+extended abstract example# Format-String Vulnerability
 
 ## Descripition of the scenario
 The format-string vulnerability is caused by code like printf(user_input), where the contents of variable of user_input is provided by users. When this program is running with privileges (e.g., Set-UID program), this printf statement becomes dangerous, because it can lead to one of the following consequences: (1) crash the program, (2) read from an arbitrary memory place, and (3) modify the values of in an arbitrary memory place. 
@@ -30,4 +30,4 @@ To get the container running for the user:
 docker run -d -p 80 --cap-add=SYS_PTRACE --security-opt seccomp=unconfined <image tag name>
 ```
 ### Usage
-CHEESEHub has the instructions provided by the [SEED Project](https://seedsecuritylabs.org/index.html). For this container, be sure to compile vul_prog.c as vul_prog. This will make sure you can run it with sudo.
+CHEESEHub has the instructions provided by the [SEED Project](https://seedsecuritylabs.org/index.html). 
