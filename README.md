@@ -30,4 +30,4 @@ To get the container running for the user:
 docker run -d -p 80 --cap-add=SYS_PTRACE --security-opt seccomp=unconfined <image tag name>
 ```
 ### Usage
-After going to the URL, you'll find a VNC client to greet you. CHEESEHub has the instructions provided by the [SEED Project](https://seedsecuritylabs.org/index.html). 
+After going to the URL, you'll find a VNC client to greet you. CHEESEHub has the instructions provided by the [SEED Project](https://seedsecuritylabs.org/index.html). The user will have to compile the programs available, and figure out how to carry out the steps in the instructions. 
