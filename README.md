@@ -6,13 +6,13 @@ The format-string vulnerability is caused by code like printf(user_input), where
 ## Target Audience
 
 ### Instructors
-If you're an instructor in cypersecurity concepts or a field related, this would be a great opportunity to teach your students on the vulnerability from a hands-on approach. Specififically, the uses of the vulnerability and how to protect against it. 
+If you're an instructor in cypersecurity concepts or a field related, this would be a great opportunity to teach your students on the vulnerability from a hands-on approach. The lab covers how to weaken a system for the vulnerability to be possible. This lab will have the students attempt to crash the program and modify secret values that are stored in memory.
 
 ### Students
-A student in cybersecurity concepts or a field related could use this lab to see how programming can be exploited. This could also give them the chance to get a head start in their classes if they have not covered the format-string vulnerability yet.
+A student in cybersecurity concepts or a field related could use this lab to see how this kind of programming can be exploited. This could also give them the chance to get a head start in their classes if they have not covered the format-string vulnerability.
 
 ## Design and Architecture
-This lab only has one container, which is the hacker. It provides all of the tools you might need. This lab will run off of VNC.
+This lab only has one container, which is the hacker. It provides all of the tools you might need. This lab will run off of VNC. The user will run all commands needed on the terminal provided by LXDE. This includes having to disable randomization, compiling the programs, etc.
 
 ## Installation and Usage
 
@@ -30,4 +30,4 @@ To get the container running for the user:
 docker run -d -p 80 --cap-add=SYS_PTRACE --security-opt seccomp=unconfined <image tag name>
 ```
 ### Usage
-CHEESEHub has the instructions provided by the [SEED Project](https://seedsecuritylabs.org/index.html). 
+After going to the URL, you'll find a VNC client to greet you. CHEESEHub has the instructions provided by the [SEED Project](https://seedsecuritylabs.org/index.html). 
