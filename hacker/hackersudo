@@ -1,1 +1,1 @@
-hacker ALL=(root) NOPASSWD: /home/hacker/vul_prog
+hacker ALL=(root) NOPASSWD: /bin/chmod
